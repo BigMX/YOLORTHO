@@ -1,0 +1,49 @@
+# Ultralytics YOLO 🚀, GPL-3.0 license
+# COCO 2017 dataset http://cocodataset.org by Microsoft
+# Example usage: yolo train data=coco.yaml
+# parent
+# ├── yolov5
+# └── datasets
+#     └── coco  ← downloads here (20.1 GB)
+
+
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: ./ultralytics/datasets/dentx # dataset root dir
+train: train.txt  # train images (relative to 'path') 118287 images
+val: val.txt  # val images (relative to 'path') 5000 images
+test: val.txt  # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/20794
+
+# Classes
+names:
+  0: 11
+  1: 12
+  2: 13
+  3: 14
+  4: 15
+  5: 16
+  6: 17
+  7: 18
+  8: 21
+  9: 22
+  10: 23
+  11: 24
+  12: 25
+  13: 26
+  14: 27
+  15: 28
+  16: 31
+  17: 32
+  18: 33
+  19: 34
+  20: 35
+  21: 36
+  22: 37
+  23: 38
+  24: 41
+  25: 42
+  26: 43
+  27: 44
+  28: 45
+  29: 46
+  30: 47
+  31: 48
